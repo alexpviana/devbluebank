@@ -1,0 +1,1 @@
+Controle de versão dos arquivos utilizados para construção do teste do Blue Bank
