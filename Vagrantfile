@@ -15,7 +15,7 @@ Vagrant.configure("2") do |config|
  
  #Instalação MySQL
  config.vm.provision "shell",
- path: "./scripts/mysql.sh",
+ path: "./scripts/mongodb.sh",
  privileged: true
 
  #Setup aplicacoes
@@ -23,7 +23,7 @@ Vagrant.configure("2") do |config|
  path: "./scripts/setup.sh",
  run: "always" 
 
- config.vm.network :forwarded_port, host: 3306, guest: 3306 #MySQL
+ config.vm.network :forwarded_port, host: 27018, guest: 27018 #MongoDB
  config.vm.network :forwarded_port, host: 1337, guest: 1337 #Sails ( Node )
  config.vm.network :forwarded_port, guest: 80, host: 8080 #default
 

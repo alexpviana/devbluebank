@@ -1,0 +1,1 @@
+{ "indexes" : [ { "v" : 1, "key" : { "_id" : 1 }, "name" : "_id_", "ns" : "bluebank.contacorrente_conta_destino_contacorrente__movimentacaofinanceira_conta_destino" } ] }

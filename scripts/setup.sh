@@ -1,1 +1,1 @@
-/sbin/service mysqld start;
+service mongod start;
